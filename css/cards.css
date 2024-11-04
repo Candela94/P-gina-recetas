@@ -1,0 +1,58 @@
+.cards{
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    flex-wrap: wrap;
+    align-self: stretch;
+    
+}
+
+.card{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    gap: 8px;
+
+   
+}
+
+.imagen{
+    width: 250px;
+    height: 300px;
+}
+
+.cardimagen{
+    width: 100%;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.textcard{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    padding: 8px;
+   
+
+}
+
+
+.cardparrafo{
+    font-size: 12px;
+}
+
+
+.footercard{
+    padding: 8px;
+}
+
+.footercard .cardbutton{
+padding: 8px;
+background-color: #F2EFEA;
+   border-radius: 10px;
+   font-family: poppins;
+   color: #F2EFEA;
+   background-color: #222222;;
+
+}
