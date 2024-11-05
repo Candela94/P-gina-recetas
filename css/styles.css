@@ -86,7 +86,9 @@ nav :hover {
     border: none;
 }
 
-
+.buscador input[type="text"]:focus{
+    border-color: #edb069;
+}
 
 .buscador button {
 
@@ -133,6 +135,7 @@ footer {
     font-size: 12px;
     display: flex;
     justify-content: space-around;
+    /* align-items: center; */
     padding: 40px;
     background-color: black;
     position: fixed;
@@ -143,16 +146,44 @@ footer {
 
 }
 
-footer :hover {
-    transform: scale(1.1);
-    transition: ease-in 200ms;
 
+
+
+
+.rrss{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.iconsrrss{
+    display: flex;
+    gap: 24px;
+}
+
+
+footer .iconsrrss i{
+    
+    font-size: 16px;
+}
+
+
+.iconsrrss :hover{
+    transition: ease-in 200ms;
+    color: #edb069;
 }
 
 
 footer .enlaces-footer{
     display: flex;
     flex-direction: column;
+    gap: 6px;
+}
+
+
+.enlaces-footer :hover{
+    transition: ease-in 200ms;
+    color: #edb069;
 }
 
 footer .call-action{
@@ -163,12 +194,18 @@ footer .call-action{
 
 footer .call-action .action{
     font-family: poppins;
-    font-size: small;
+    font-size: 12px;
     padding: 8px;
     border-radius: 8px;
-    background-color: #edb069;
-    border: none;
+    background-color: rgb(55, 54, 54);
+    border: solid 0.1px white;
+    color: #F2EFEA;
 }
+
+
+
+
+
 
 hr{
     color: #F2EFEA;
